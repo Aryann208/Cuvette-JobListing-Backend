@@ -160,7 +160,10 @@ const JobListing = () => {
               </div>
             </div>
             {
-              <div className={classes.RightDisplay}>
+              <div
+                className={classes.RightDisplay}
+                style={{ position: 'absolute', right: '120px' }}
+              >
                 {authorized && (
                   <ActionButton
                     text="Add Job"
