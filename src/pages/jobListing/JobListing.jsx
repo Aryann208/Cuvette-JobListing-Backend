@@ -148,9 +148,10 @@ const JobListing = () => {
                       color: '#ed5353',
                       position: 'absolute',
                       bottom: '0',
-                      right: '30px',
+                      right: '230px',
                       fontSize: '1.2em',
                       fontWeight: '700',
+                      cursor: 'pointer',
                     }}
                     onClick={clearSkills}
                   >
